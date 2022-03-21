@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 100vh;
+    font-family: 'Staatliches';
+  }
+  
+  .hero-content {
+    width: 50%;
+    text-align: center;
+    color: #000;
+    display: none;
+    
+  }
+  
+  p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'League Spartan';
+    color: gray;
+  }
+  
+  a {
+    margin-top: 0;
+    margin-right:10px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px pink, 0 0 5px hotpink;
+  }
+  
+  nav {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: ;
+  }
+  
+  span .font-pair1a{
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  span .font-pair1b{
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  
+  /* add your css below this line */
+  
+  .hero-background {
+    background: url("https://images.pexels.com/photos/1822568/pexels-photo-1822568.jpeg") no-repeat fixed center;
+    background-size: cover;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .first-section-background {
+    background: url("https://images.pexels.com/photos/210158/pexels-photo-210158.jpeg") no-repeat fixed bottom;
+  }
+  
+  .second-section-background {
+    background: url("https://images.pexels.com/photos/209948/pexels-photo-209948.jpeg") no-repeat fixed bottom;
+  }
+  
+  .third-section-background {
+    background: url("https://images.pexels.com/photos/5005295/pexels-photo-5005295.jpeg") no-repeat fixed bottom;
+  }
+  
+  .with-background {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    padding: 30px;
+   
+    
+    
+  }
+  
+  h1 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 40px;
+    color: white;
+  }
+  
+  h3 {
+    font-size: 55px;
+    font-weight: 100;
+    line-height: 60px;
+    margin: 0;
+    font-family: Staatliches;
+    color: pink;
+  }
+  
+  .number {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: -25px;
+    right: -25px;
+    font-weight: 30px;
+    line-height: 50px;
+    font-family: Staatliches;
+  }
+  
+  article {
+    max-width: 50%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .first-article-container, .second-article-container, .third-article-container  {
+    position: relative;
+  }
+  
+  .first-article-container {
+    background-color: #3d3a3a;
+    border-radius: 30px;
+  }
+  
+  .second-article-container {
+    background-color: #3d3a3a;
+    border-radius: 30px;
+  }
+  
+  .third-article-container {
+    background-color: #3d3a3a;
+    border-radius: 30px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3d3a3a;
+    font-size: 20px; 
+    font-family: 'League Spartan';
+  }
